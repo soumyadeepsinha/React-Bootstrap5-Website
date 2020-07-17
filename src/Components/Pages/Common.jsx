@@ -1,5 +1,4 @@
 import React from 'react';
-import web from "../images/web_developer.png";
 import { Link } from 'react-router-dom';
 import './Pages.css';
 
@@ -20,7 +19,7 @@ const Common = (props) => {
                   </div>
                 </div>
                 <div className="col-md-6 pt-15 order-1 order-lg-2 myimg">
-                  <img className="img-fluid animated" src={web} alt="webdeveloper" />
+                  <img className="img-fluid animated" src={props.image} alt="webdeveloper" />
                 </div>
               </div>
             </div>

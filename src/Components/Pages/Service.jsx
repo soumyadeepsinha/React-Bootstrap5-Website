@@ -1,20 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
+// import { Link } from 'react-router-dom';
 import './Pages.css';
 
-class Service extends Component {
-  render() {
-    return (
-      <React.Fragment>
-        <div className="container-fluid nav_background">
-          <div className="row">
-            <div className="col-10 mx-auto">
-              <h1>This is Service Page</h1>
-            </div>
-          </div>
-        </div>
-      </React.Fragment>
-    )
-  }
+const Service = () => {
+  return (
+    <React.Fragment>
+      <div className="container">
+        <h1>Hello World!</h1>
+      </div>
+    </React.Fragment>
+  )
 }
 
 export default Service
