@@ -1,4 +1,4 @@
-$primary_white: #fff;
+$primary_white: #ffffff;
 $navbar_color: #b753fe;
 
 @import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
@@ -15,12 +15,14 @@ $navbar_color: #b753fe;
 }
 
 .navbar-brand {
-  font-size: 1.9rem !important;
+  font-size: 1.3rem !important;
+  font-weight: 800;
   color: $navbar_color !important;
+  float: left !important;
 }
 
 .navbar a {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-transform: capitalize;
 }
 

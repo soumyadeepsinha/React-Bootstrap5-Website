@@ -18,6 +18,10 @@
   color: #333;
 }
 
+#header p {
+  font-size: 32px;
+}
+
 #header .company {
   color: #b753fe;
 }
@@ -75,5 +79,16 @@
     -webkit-transform: translateY(-10px);
             transform: translateY(-10px);
   }
+}
+
+.carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: center;
+}
+
+.mycard {
+  margin: 30px 5px;
+  padding-top: 50px;
 }
 /*# sourceMappingURL=Pages.css.map */

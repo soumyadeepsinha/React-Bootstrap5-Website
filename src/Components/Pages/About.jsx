@@ -6,7 +6,7 @@ class About extends Component {
   render() {
     return (
       <React.Fragment>
-        <Common name="JSONS -- Develope your site in unique Ways" image={webdesign} visit="/contact" btn_name="Contact us" ide="Dreams" were="Reality" />
+        <Common name="Develope your site in unique Ways" image={webdesign} visit="/contact" btn_name="Contact us" ide="Dreams" were="Reality" />
       </React.Fragment>
     )
   }

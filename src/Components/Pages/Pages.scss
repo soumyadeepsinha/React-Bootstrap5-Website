@@ -46,7 +46,7 @@ $navbar_color: #b753fe;
   text-decoration: none;
 }
 
-#header .btn-get-started:hover {
+#header .btn-started:hover {
   background: $navbar_color;
   color: #fff;
 }
@@ -67,4 +67,14 @@ $navbar_color: #b753fe;
   100% {
     transform: translateY(-10px);
   }
+}
+
+.carousel-item img {
+  object-fit: cover;
+  position: center;
+}
+
+.mycard {
+  margin: 30px 5px;
+  padding-top: 50px;
 }

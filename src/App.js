@@ -2,6 +2,7 @@ import React from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer/Footer';
 import Home from './Components/Pages/Home';
 import About from './Components/Pages/About';
 import Service from './Components/Pages/Service';
@@ -21,6 +22,7 @@ const App = () => {
           <Redirect to="/" />
         </Switch>
       </Router>
+      <Footer />
     </React.Fragment>
   );
 }
