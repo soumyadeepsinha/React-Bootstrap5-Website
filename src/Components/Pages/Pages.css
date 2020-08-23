@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 #header {
@@ -59,31 +59,37 @@
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
+#form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 25px 0;
+}
+
 @-webkit-keyframes up-down {
   0% {
     -webkit-transform: translateY(10px);
-            transform: translateY(10px);
+    transform: translateY(10px);
   }
   100% {
     -webkit-transform: translateY(-10px);
-            transform: translateY(-10px);
+    transform: translateY(-10px);
   }
 }
 
 @keyframes up-down {
   0% {
     -webkit-transform: translateY(10px);
-            transform: translateY(10px);
+    transform: translateY(10px);
   }
   100% {
     -webkit-transform: translateY(-10px);
-            transform: translateY(-10px);
+    transform: translateY(-10px);
   }
 }
 
 .carousel-item img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   position: center;
 }
 

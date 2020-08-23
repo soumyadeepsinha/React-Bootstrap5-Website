@@ -8,6 +8,7 @@ import About from './Components/Pages/About';
 import Service from './Components/Pages/Service';
 import Contact from './Components/Pages/Contact';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (

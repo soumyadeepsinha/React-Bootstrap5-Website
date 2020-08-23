@@ -22,13 +22,13 @@ const Service = () => {
               </ol>
               <div className="carousel-inner">
                 <div className="carousel-item active">
-                  <img src={development} class="d-flex justify-content-center mx-auto" alt="Slider" width="1600" height="480" />
+                  <img src={development} class="d-flex justify-content-center mx-auto" alt="Slider1" width="1600" height="480" />
                 </div>
                 <div class="carousel-item">
-                  <img src={analysis} class=" d-flex justify-content-center mx-auto" alt="Slider" width="1600" height="480" />
+                  <img src={analysis} class=" d-flex justify-content-center mx-auto" alt="Slider2" width="1600" height="480" />
                 </div>
                 <div class="carousel-item">
-                  <img src={design} class=" d-flex justify-content-center mx-auto" alt="Slider" width="1600" height="480" />
+                  <img src={design} class=" d-flex justify-content-center mx-auto" alt="Slider3" width="1600" height="480" />
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -43,7 +43,7 @@ const Service = () => {
             <div className="row mycard">
               <div className="col-10 col-md-4 mx-auto">
                 <div className="card mt-50">
-                  <img src={webapp} className="card-img-top" alt="CardImg" />
+                  <img src={webapp} className="card-img-top" alt="CardImg1" />
                   <div className="card-body">
                     <h5 className="card-title">Customization</h5>
                     <p className="card-text">Easily customize your World or Choose a Theme instead.</p>
@@ -53,7 +53,7 @@ const Service = () => {
               </div>
               <div className="col-10 col-md-4 mx-auto">
                 <div className="card mt-50">
-                  <img src={designteam} className="card-img-top" alt="CardImg" />
+                  <img src={designteam} className="card-img-top" alt="CardImg2" />
                   <div className="card-body">
                     <h5 className="card-title">Welcome to Online World</h5>
                     <p className="card-text">Put your info & customize it as you want. Your Choice can be reached easily with our Code. It's You who build the website.</p>
@@ -63,7 +63,7 @@ const Service = () => {
               </div>
               <div className="col-10 col-md-4 mx-auto">
                 <div className="card mt-50">
-                  <img src={asset} className="card-img-top" alt="CardImg" />
+                  <img src={asset} className="card-img-top" alt="CardImg3" />
                   <div className="card-body">
                     <h5 className="card-title"> Being Online </h5>
                     <p className="card-text">Select your content & publish it online with us. We will arrange your website as per your desire. Let your viewers access it.</p>

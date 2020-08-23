@@ -5,6 +5,7 @@ $navbar_color: #b753fe;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  min-height: 100vh;
 }
 
 #header {
@@ -69,6 +70,11 @@ $navbar_color: #b753fe;
   }
 }
 
+#form {
+  margin: 10px auto;
+  padding: 10px 5px 0 5px;
+}
+
 .carousel-item img {
   object-fit: cover;
   position: center;
@@ -77,4 +83,9 @@ $navbar_color: #b753fe;
 .mycard {
   margin: 30px 5px;
   padding-top: 50px;
+}
+
+footer {
+  min-height: 100vh;
+  height: auto;
 }
