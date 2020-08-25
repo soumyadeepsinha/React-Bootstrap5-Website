@@ -1,12 +1,11 @@
 import React from 'react';
-import './Footer.css';
 
 export default function Footer() {
   return (
-    <footer className="footer mt-auto py-3 bg-light">
-      <div className="container">
+    <React.Fragment>
+      <footer className="card-footer">
         <span className="text-muted">@Jsons WebDev 2020</span>
-      </div>
-    </footer>
+      </footer>
+    </React.Fragment>
   )
 }
