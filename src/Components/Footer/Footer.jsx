@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <React.Fragment>
       <footer className="card-footer">
-        <span className="text-muted">@Jsons WebDev 2020</span>
+        @Jsons WebDev 2020
       </footer>
     </React.Fragment>
   )
